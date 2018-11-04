@@ -65,12 +65,35 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-image: url("jewelback.jpg");
-  background-repeat: no-repeat;
-    background-size: cover;
+   background: url("jewelone.jpg") no-repeat;
+    background-size:100% 100%;
+
+
   
+    
   
 }
+
+.carddeckcustom{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+
+.one {
+    border-style: solid;
+    border-width: 2px;
+    border-color:#728493;
+    box-shadow: 5px 10px #3b3932;
+}
+
 
 header.masthead .masthead-content {
   z-index: 1;
